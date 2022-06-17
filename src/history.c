@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "history.h"
-#include "tokenizer.h"
 
 /* Initialize the linked list to keep the history. */
 List* init_history()

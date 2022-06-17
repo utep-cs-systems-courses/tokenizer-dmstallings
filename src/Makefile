@@ -8,8 +8,8 @@ CFLAGS=-g -O3
 all: tokenizer
 
 # include file dependencies
-tokenizer.o: tokenizer.h tokenizer.c uimain.c
-history.o: history.h history.c uimain.c
+tokenizer.o: tokenizer.c
+history.o: history.h history.c
 
 # $@=target, $^=prerequisitesxs
 tokenizer: tokenizer.o history.o uimain.o
